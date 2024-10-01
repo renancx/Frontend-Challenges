@@ -1,0 +1,40 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%)
+}
+
+.container {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    margin: 400px;
+    margin-top: 200px;
+    font-family: "Outfit", sans-serif;
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 15px;
+    max-width: 800px;
+}
+
+h2, h3 {
+    justify-content: center;
+    display: flex;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    width: 700px;
+}
+
+.title {
+    padding-left: 0;
+    margin-right: 200px;
+}
