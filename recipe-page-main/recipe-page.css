@@ -8,33 +8,79 @@ body {
 
 .container {
     background-color: white;
-    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     border-color: black;
-    margin: 400px;
-    margin-top: 200px;
+    margin: auto;
     font-family: "Outfit", sans-serif;
+    border-radius: 20px;
+    padding: 35px;
+    text-align: left;
+    width: 650px
 }
 
 img {
     border-radius: 10px;
-    margin-top: 15px;
-    max-width: 800px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%)
 }
 
 h2, h3 {
-    justify-content: center;
     display: flex;
 }
 
 .preparation {
     background-color: hsl(330, 100%, 98%);
-    width: 700px;
+    width: 650px;
 }
 
 .title {
     padding-left: 0;
-    margin-right: 200px;
+    align-content: left;
+}
+
+.recipe-description {
+    margin-top: 0;
+}
+
+.preparation h3 {
+    padding: 10px 10px 0px 30px;
+}
+
+table {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.nutrition td, .nutrition th {
+    text-align: left;
+    border-bottom: 1px solid hsl(0, 0%, 80%); 
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+li {
+    padding-bottom: 7px;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%)
+}
+
+hr {
+    color: black;
 }
