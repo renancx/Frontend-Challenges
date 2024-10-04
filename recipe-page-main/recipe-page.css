@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     border-color: black;
     margin: auto;
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-seri0f;
     border-radius: 20px;
     padding: 35px;
     text-align: left;
@@ -79,8 +79,4 @@ li {
 
 li::marker {
     color: hsl(14, 45%, 36%)
-}
-
-hr {
-    color: black;
 }
