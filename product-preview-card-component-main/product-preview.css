@@ -1,6 +1,5 @@
 body {
-    background-color: hsl(30, 38%, 92%);
-    
+    background-color: hsl(30, 38%, 92%);    
 }
 
 .image-product {
@@ -21,9 +20,8 @@ body {
     border-radius: 7px;
     display: flex;
     margin: 100px;
-    max-height: 400px;
-    max-width: 600px;
-
+    height: 400px;
+    width: 600px;
 }
 
 .fraunces-product {
@@ -43,8 +41,13 @@ body {
 .product-price {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 100px 0 100px;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.product-discount {
+    color: green;
+    font-size: 30px;
 }
 
 .button-add {
@@ -58,7 +61,6 @@ body {
     display: flex;
     border-radius: 10px;
     border: 0;
-
 }
 
 .img-cart-icon {
