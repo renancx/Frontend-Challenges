@@ -33,19 +33,31 @@ body {
     width: 560px;
 }
 
-.fraunces-product {
+.fraunces {
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .product-type {
     margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: small;
 }
 
 .product-name {
     font-family: Fraunces;
+    margin-top: 0;
+    line-height: 1;
 }
 
 .product-price {
@@ -56,7 +68,7 @@ body {
 }
 
 .product-description {
-    margin: 0;
+    margin-top: 0;
 }
 
 .price-discount {
@@ -81,7 +93,8 @@ body {
     align-items: center;
     display: flex;
     border-radius: 10px;
-    border: 0;    
+    border: 0;
+    font-weight: bold;
 }
 
 .button-add:hover {
