@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    background: linear-gradient(180deg, rgba(120,87,255,1) 0%, rgba(46,43,233,1) 100%);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.grade-circle {
+    background: linear-gradient(180deg, rgba(78,33,202,1) 0%, rgba(36,33,202,1) 100%);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.grade-score {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.grade-total {
+    color: hsl(241, 100%, 89%);
+    font-size: 70px;
+    margin: 0;
+}
+
+.grade-max {
+    color: hsl(210, 1%, 62%);
+}
+
+.right-side {
+    width: 300px;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    background-color: hsl(0, 2%, 32%);
+    border-radius: 30px;
+    border-width: 0;
+}
