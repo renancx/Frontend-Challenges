@@ -54,6 +54,12 @@ body {
     width: 300px;
 }
 
+.stats {
+    background-color: aquamarine;
+    padding: 20px;
+    margin:20px
+}
+
 button {
     width: 200px;
     height: 35px;
