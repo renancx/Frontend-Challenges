@@ -6,12 +6,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 .container {
     border-radius: 20px;
     display: flex;
     flex-direction: row;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
 }
 
 .left-side {
@@ -19,7 +21,27 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 300px;
+    padding: 10px;
+}
+
+.left-title {
+    color: hsl(244, 100%, 89%);
+}
+
+.right-side {
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-title {
+    color: hsl(229, 26%, 24%);
 }
 
 .grade-circle {
@@ -37,33 +59,80 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .grade-total {
-    color: hsl(241, 100%, 89%);
+    color: hsl(0, 0%, 100%);
     font-size: 70px;
     margin: 0;
+    font-weight: 700;
 }
 
 .grade-max {
-    color: hsl(210, 1%, 62%);
+    color: hsl(246, 100%, 73%);
+    margin: 0;
+    font-weight: 500;
 }
 
-.right-side {
-    width: 300px;
+.grade-text {
+    color: hsl(200, 100%, 99%);
+    margin-bottom: 10px;
+}
+
+.grade-description {
+    color: hsl(247, 100%, 90%);
+    margin: 0;
+    padding: 0 40px 0 40px;
+    text-align: center;
 }
 
 .stats {
-    background-color: aquamarine;
-    padding: 20px;
-    margin:20px
+    width: 210px;
+    height: 50px;
+    padding: 0 20px 0 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
-button {
-    width: 200px;
+.stats-text {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.stats-score {
+    color: hsl(236, 12%, 27%);
+}
+
+.continue {
+    width: 250px;
     height: 35px;
-    background-color: hsl(0, 2%, 32%);
+    background-color: hsl(225, 31%, 27%);
     border-radius: 30px;
     border-width: 0;
+    color: white;
+    font-weight: 700;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(6, 100%, 98%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(42, 100%, 97%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(173, 53%, 97%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(240, 71%, 97%);
 }

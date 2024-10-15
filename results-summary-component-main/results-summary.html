@@ -7,47 +7,63 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 	<link rel="stylesheet" href="/results-summary-component-main/results-summary.css">
 	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 	
 	<title>Results summary component</title>
 </head>
 <body>
 	<div class="container">
 		<div class="left-side">
-			<h2>Your Result</h2>
+			<h2 class="left-title">Your Result</h2>
 			
 			<div class="grade-circle">
 				<div class="grade-score">
-					<p class="grade-total">96</p>
+					<p class="grade-total">76</p>
 					<p class="grade-max">of 100</p>
 				</div>
 			</div>
 
-			<h1>Great</h1>
-			<p>You scored higher than 92% of the people who have taken these tests.</p>
+			<h1 class="grade-text">Great</h1>
+			<p class="grade-description">You scored higher than 92% of the people who have taken these tests.</p>
 		</div>
 
 		<div class="right-side">
-			<h2>Summary</h2>
-			<div class="stats">
-				Reaction
-				80 / 100
+			<h2 class="right-title">Summary</h2>
+			<div class="stats reaction">
+				<div class="stats-text">
+					<img class="img-reaction-icon" src="/results-summary-component-main/assets/images/icon-reaction.svg" alt="Reaction Icon"> 
+					<h3>Reaction</h3>
+				</div>
+				<p class="stats-score"><b>80</b> / 100</p>
 			</div>
 
-			<div class="stats">
-				Memory
-				92 / 100
+			<div class="stats memory">
+				<div class="stats-text">
+					<img class="img-memory-icon" src="/results-summary-component-main/assets/images/icon-memory.svg" alt="Memory Icon"> 
+					<h3>Memory</h3>
+				</div>
+				<p class="stats-score"><b>92</b> / 100</p>
 			</div>
 
-			<div class="stats">
-				Verbal
-				61 / 100
+			<div class="stats verbal">
+				<div class="stats-text">
+					<img class="img-verbal-icon" src="/results-summary-component-main/assets/images/icon-verbal.svg" alt="Verbal Icon"> 
+					<h3>Verbal</h3>
+				</div>
+				<p class="stats-score"><b>61</b> / 100</p>
 			</div>
 
-			<div class="stats">
-				Visual
-				72 / 100
+			<div class="stats visual">
+				<div class="stats-text">
+					<img class="img-visual-icon" src="/results-summary-component-main/assets/images/icon-visual.svg" alt="Visual Icon"> 
+					<h3>Visual</h3>
+				</div>
+				<p class="stats-score"><b>72</b> / 100</p>
 			</div>
-			<button>Continue</button>
+			<button class="continue">Continue</button>
 	</div>
 </body>
 </html>
