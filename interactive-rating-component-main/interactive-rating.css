@@ -11,10 +11,10 @@ body {
 
 .rating-container {
     background-color: hsl(215, 23%, 14%);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 350px;
     padding: 30px;
-    display: none;
+    /*display: none;*/
 }
 
 .rating-image {
@@ -77,12 +77,24 @@ body {
     background-color: #ffffff;
 }
 
-.after-container {
-    /*display: none;*/
+.after-container {    
     background-color: hsl(215, 23%, 14%);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 350px;
     padding: 30px;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.after-rate {
+    color: #fb7714;
+    margin-top: 20px;
+    background-color: #242f35;
+    padding: 7px 20px 7px 20px;
+    border-radius: 20px;
 }
 
 .after-title {
@@ -91,4 +103,9 @@ body {
 
 .after-description {
     color: #848b95;
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
 }
