@@ -10,6 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<script src="/interactive-rating-component-main/interactive-rating.js"></script>
 		
 	<title>Interactive rating component</title>
 </head>
@@ -28,11 +29,11 @@
 		</p>
 		
 		<div class="rating-numbers">
-			<div class="rating-select" id="rating-1">1</div>
-			<div class="rating-select" id="rating-2">2</div>
-			<div class="rating-select" id="rating-3">3</div>
-			<div class="rating-select" id="rating-4">4</div>
-			<div class="rating-select" id="rating-5">5</div>			
+			<div class="rating-select" id="rating-1" onclick="selectRatingNumber('rating-1')">1</div>
+			<div class="rating-select" id="rating-2" onclick="selectRatingNumber('rating-2')">2</div>
+			<div class="rating-select" id="rating-3" onclick="selectRatingNumber('rating-3')">3</div>
+			<div class="rating-select" id="rating-4" onclick="selectRatingNumber('rating-4')">4</div>
+			<div class="rating-select" id="rating-5" onclick="selectRatingNumber('rating-5')">5</div>			
 		</div>
 
 		<button class="submit">Submit</button>

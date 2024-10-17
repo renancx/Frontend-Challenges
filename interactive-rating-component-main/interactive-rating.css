@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 35px;
-    color: #a2abb4;
+    color: #848b95;
 }
 
 .rating-select {
@@ -49,12 +49,17 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
-
+    font-family: "Consolas", sans-serif;
     width: 40px;
     height: 40px;
+    color: #848b95;
 }
 
 .rating-select:hover {
+    cursor: pointer;    
+}
+
+.rating-select:not(.selected):hover {
     cursor: pointer;
     background-color: hsl(25, 97%, 53%);
     color: #000000;
@@ -108,4 +113,9 @@ body {
     font-size: 15px;
     display: flex;
     text-align: center;
+}
+
+.selected {
+    background-color: #ffffff;
+    color: #000000;
 }
