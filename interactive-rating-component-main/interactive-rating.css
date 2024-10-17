@@ -57,7 +57,7 @@ body {
 
 .rating-select {
     background-color: hsl(248, 9%, 18%);
-    font-family: "Consolas", sans-serif;
+    font-family: "Overpass", sans-serif;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
@@ -79,8 +79,10 @@ body {
 
 .submit {
     background-color: hsl(25, 97%, 53%);
-    font-family: "Overpass", sans-serif;
     text-transform: uppercase;
+    font-family: 'Overpass';
+    letter-spacing: 3px;
+    padding-top: 3px;
     border-radius: 25px;
     color: #000000;
     margin-top: 20px;
@@ -94,6 +96,23 @@ body {
     background-color: #ffffff;
 }
 
+.return {
+    background-color: hsl(25, 97%, 53%);
+    font-family: sans-serif;
+    justify-content: center;
+    border-radius:8px;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 100px;
+    height: 22px;
+    border: 0;
+}
+
+.return:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
 .after-container {    
     background-color: hsl(215, 23%, 14%);
     justify-content: center;
@@ -101,7 +120,6 @@ body {
     align-items: center;
     border-radius: 20px;
     padding: 30px;
-    display: flex;
     display: none;
     width: 350px;
 }

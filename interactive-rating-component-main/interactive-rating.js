@@ -19,3 +19,8 @@ function submitValue() {
         alert("Nenhum rating foi selecionado.");
     }
 }
+
+function getBack() {
+    document.getElementById('rating-element').style.display = 'block'
+    document.getElementById('after-element').style.display = 'none';
+}
