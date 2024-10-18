@@ -1,6 +1,42 @@
+/*
+--Colors
+    primary: #a57f5e
+    secondary: #d2baa5
+    accent: #c69f7e
+*/
+
+body {
+    background-color: #000000;
+    font-family: "Anton", sans-serif;
+}
+
 .main-container {
-    align-items: center;
-    display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.page-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.page-link {
+    background-color: #f3e5d5;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    color: #000000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    height: 50px;
+    width: 200px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
 }
