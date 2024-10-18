@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1a2d;
+}
+
+.nft-container {
+    background-color: #15273f;
+    width: 330px;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nft-image {
+    width: 300px;
+    border-radius: 15px;
+}
