@@ -1,29 +1,104 @@
-html {
-    margin: 0;
-    padding: 0;
-}
-
 body {
+    font-family: "Outfit", sans-serif;    
+    background-color: #0d1a2d;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    background-color: #0d1a2d;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
 
 .nft-container {
     background-color: #15273f;
-    width: 330px;
-    margin: auto;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-
+    border-radius: 20px;
+    position: relative;
+    padding: 25px;
+    display: flex;
+    width: 306px;
+    margin: auto;
 }
 
 .nft-image {
     width: 300px;
-    border-radius: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.nft-image:hover {
+    cursor: pointer;
+}
+
+.images-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.nft-hover {
+    background-color: rgba(41, 236, 238, 0.5);
+    transition: opacity 0.3s ease;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+
+.images-container:hover .nft-hover {
+    opacity: 1;
+}
+
+.nft-hover svg {
+    width: 48px;
+    height: 48px;
+}
+
+.nft-title {
+    color: #fbffff;
+    width: 300px;
+}
+
+.nft-title:hover {
+    color: #29ecee;
+    cursor: pointer;
+}
+
+.nft-description {
+    color: #89a0bf;
+    margin-bottom: 21px;
+    padding-left: 6px;
+}
+
+.nft-info {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    width: 300px;
+}
+
+.nft-price, .nft-time  {
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    width: 100px;
+}
+
+.nft-price:hover, .nft-time:hover {
+    color: #29ecee;
+}
+
+.nft-price svg, .nft-time svg {
+    margin-right: 8px;
 }
