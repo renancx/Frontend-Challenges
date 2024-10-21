@@ -22,18 +22,22 @@ body {
     display: flex;
 }
 
+.page-title {
+    color: #a57f5e;
+}
+
 .page-link {
-    background-color: #f3e5d5;
-    justify-content: center;
-    text-align: center;
+    background-color: #d2baa5;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     color: #000000;
     border-radius: 20px;
     margin-top: 10px;
     padding: 10px;
     display: flex;
-    height: 50px;
-    width: 200px;
+    height: 30px;
+    width: 180px;
 }
 
 a:visited {
