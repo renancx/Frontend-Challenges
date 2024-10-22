@@ -1,0 +1,68 @@
+body {
+    background-image: url('/profile-card-component-main/images/bg-pattern-bottom.svg');
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #19a1ad;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    height: 400px;
+    width: 350px;
+}
+
+.profile-img {
+    transform: translateX(-50%);
+    border-radius: 50%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 32%;
+}
+
+.profile-img {
+    border: 7px solid white;
+    border-radius: 100%;
+}
+
+.profile-user {
+    margin-top: 10px;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.profile-number {
+    font-weight: bold;
+}
+
+.profile-socials {
+    padding-bottom: 30px;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.profile-stats {
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+}
+
+.profile-text {
+    font-size: smaller;
+    font-weight: 300;
+}
