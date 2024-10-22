@@ -1,7 +1,7 @@
 /*
 font-family: "Lexend Deca", sans-serif;
 font-family: "Big Shoulders Display", sans-serif;
-*/
+*/ 
 
 body {
     background-color: #f2f2f2;
@@ -14,27 +14,33 @@ body {
 }
 
 .container {
-    display: flex;
+    border-radius: 10px;
     flex-direction: row;
+    overflow: hidden;
+    display: flex;
 }
 
-h1 {
-    color: #ffecd6;
+.title {
     font-family: "Big Shoulders Display", sans-serif;
     text-transform: uppercase;
+    color: #ffecd6;
 }
 
-span {
-    color: #f2f2f2;
+.description {
     font-family: "Lexend Deca", sans-serif;
-
+    line-height: 15px;
+    font-weight: 300;
+    color: #f2f2f2;
+    font-size: 12px;
+    width: 165px;
 }
 
 .box {
-    height: 600px;
-    width: 300px;
-    display: flex;
     flex-direction: column;
+    height: 300px;
+    display: flex;
+    padding: 40px;
+    width: 200px;
 }
 
 .sedan-container {
@@ -50,5 +56,51 @@ span {
 }
 
 .learn-more {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 100px;
+    height: 35px;
     border: 0;
+}
+
+.learn-more:hover {
+    border-style: solid;
+    cursor: pointer;
+    border: 2px;
+}
+
+.sedan-button {
+    color: #e28525;
+    font-weight: 500;
+}
+
+.suv-button {
+    color: #016972;
+    font-weight: 500;
+}
+
+.luxury-button {
+    color: #00403f;
+    font-weight: 500;
+}
+
+.sedan-button:hover {
+    background-color: #e28525;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.suv-button:hover {
+    background-color: #016972;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.luxury-button:hover {
+    background-color: #00403f;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-weight: 500;
 }
