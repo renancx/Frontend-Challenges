@@ -12,57 +12,84 @@ body {
 .container {
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
+}
+
+.container-text {
+    margin-left: 30px;
+    width: 400px;
 }
 
 .top-container  {
-    margin-bottom: 20px;
     flex-direction: row;
     display: flex;
 }
 
 .title {
      color: #4e1f4b;
+     font-size: 60px;
+     line-height: 55px;
+     margin-bottom: 25px;
+     margin-top: 0;
+}
+
+.description {
+    line-height: 20px;
+    font-weight: 500;
+    text-align: left;
 }
 
 img {
     border: 2px solid white;
     border-radius: 50%;
     width: 48px;
+    height: 48px;
+}
+
+.rating {
+    margin-left: 180px;
 }
 
 .rating-grade {
+    justify-content: space-around;
     background-color: #f7f2f8;
+    box-shadow: 3px 4px gray;
     border-radius: 10px;
     flex-direction: row;
     align-items: center;
     display: flex;
     margin: 15px;
     padding: 10px;
-    width: 300px;
+    width: 360px;
+    height: 40px;
 }
 
 .rating-text {
     color: #441f42;
+    margin-left: 10px;
+    font-weight: 700;
 }
 
 .user-container {
     flex-direction: row;
     display: flex;
+    height: 300px;
 }
 
 .user-text {
     flex-direction: column;
+    padding: 15px;
     display: flex;
 }
 
 .user-card {
     background-color: #511f50;
+    box-shadow: 3px 4px black;
     border-radius: 10px;
-    padding: 15px;
-    width: 350px;
+    padding: 25px;
+    width: 280px;
     margin: 15px;
-    height: 200px;
+    height: 180px;
 }
 
 .user-top {
@@ -72,12 +99,43 @@ img {
 
 .user-name {
     color: #ece3ec;
+    font-size: 25px;
 }
 
 .user-description {
     color: #e57bb5;
+    font-size: 17px;
 }
 
 .user-comment {
     color: #fef6fe;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.review {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.report {
+    margin-left: 40px;
+}
+
+.besttech {
+    margin-left: 80px;
+}
+
+.colton {
+    margin-top: 15px;
+}
+
+.irene {
+    margin-top: 30px
+}
+
+.anne {
+    margin-top: 45px
 }
