@@ -1,0 +1,89 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #edf2f8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.main-img {
+    width: 420px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;   
+}
+
+.main-h1 {
+    color: #4d5464;
+    line-height: 40px;
+    margin:0;
+}
+
+.main-desc {
+    color: #83888e;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    color: #5c626e;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.user-birth {
+    color: #bfc3cc;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.user-share {
+    width: 15px;
+    height: 15px;
+    background-color: #eef1f6;
+    border-radius: 50%;
+    padding: 10px;
+}
