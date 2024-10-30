@@ -98,18 +98,6 @@ function showMessage(index) {
     });
 }
 
-function showNextMessage() {
-    textCurrentIndex = (textCurrentIndex + 1) % messages.length;
-    showMessage(textCurrentIndex);
-    resetTimer();
-}
-
-function showPrevMessage() {
-    textCurrentIndex = (textCurrentIndex - 1 + messages.length) % messages.length;
-    showMessage(textCurrentIndex);
-    resetTimer();
-}
-
 function startTimer() {
     interval = setInterval(showNextMessage, 4000);
 }
