@@ -87,3 +87,7 @@ main {
     border-radius: 50%;
     padding: 10px;
 }
+
+.user-share:hover {
+    cursor: pointer;
+}
